@@ -1,4 +1,4 @@
-.grid-container {
+/* .grid-container {
     margin: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -6,7 +6,7 @@
 }
 .grid-item {
     /* background-color: rgba(255, 255, 255, 0.5); */
-    background-color: transparent;
+    /* background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
@@ -15,5 +15,37 @@
 .flex-box{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; }*/ 
+.container{
+    
+    margin-left: 175px;
+    
 }
+
+table, td ,th{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 2rem;
+}
+.nested-table {
+    width: 500px;
+}
+.nt2{
+margin-top:100px;
+margin-bottom: 100px;
+}
+.nt3,.nt4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.list-items{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    margin-left: 0px;
+}
+.items{
+    margin-left: 150px;
+}
+
+
